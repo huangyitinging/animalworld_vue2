@@ -224,7 +224,7 @@ export default {
 
 <style lang="">
 .catbanner{
-    background-image: url(https://i.imgur.com/Z695wJp.png);
+    background-image: url(https://i.imgur.com/CUUzjan.png);
     width: 100%;
     height:200px;
     background-position:center;
