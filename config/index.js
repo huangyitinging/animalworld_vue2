@@ -43,7 +43,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/view',// 修改這裡得值，使其對應 Github Pages 的路
+    assetsPublicPath: '/animalworld_vue/dist/',// 修改這裡得值，使其對應 Github Pages 的路
 
     /**
      * Source Maps
