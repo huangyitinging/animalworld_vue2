@@ -38,12 +38,12 @@ module.exports = {
 
   build: {
     // Template for index.html
-   // index: path.resolve(__dirname, '../dist/index.html'),
+    index: path.resolve(__dirname, '../dist/index.html'),
     // assetsPublicPath: '/view',// 修改這裡得值，使其對應 Github Pages 的路
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/view',
+    assetsPublicPath: '/view',// 修改這裡得值，使其對應 Github Pages 的路
 
     /**
      * Source Maps
