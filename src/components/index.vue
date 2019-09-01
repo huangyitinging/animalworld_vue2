@@ -2,8 +2,9 @@
     <div>
          <Alert></Alert>
         <Carousel></Carousel>
-        <ad></ad>
+        <Ad></Ad>
         <BestSell></BestSell>
+        <Subscribe></Subscribe>
     </div>
 </template>
 
@@ -12,9 +13,9 @@
 import Alert from './AlertMessage';
 import NavbarFront from './NavbarFront';
 import Carousel from './Carousel';
-import ad from './ad';
+import Ad from './Ad';
 import BestSell from './BestSell';
-
+import Subscribe from './Subscribe';
 
 
 export default {
@@ -22,8 +23,9 @@ export default {
         Alert,
         NavbarFront,
         Carousel,
-        ad,
+        Ad,
         BestSell,
+        Subscribe,
     }
 }
 </script>

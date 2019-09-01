@@ -6,7 +6,7 @@ import VueCarousel from '@chenfengyuan/vue-carousel';
 
 
 //import Home from '@/components/HelloWorld';
-import Index from '@/components/index';
+import Index from '@/components/Index';
 import NavbarFront from '@/components/NavbarFront';
 import PetProduct from '@/components/pages/PetProduct';
 import Coupon from '@/components/pages/Coupon';

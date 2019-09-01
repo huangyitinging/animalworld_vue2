@@ -20,10 +20,10 @@
                     </div>
                     <div class="h2 text-center text-muted mb-4">購物車清單</div>
                     <div v-if="cart.carts.length != 0">
-                        <table class="table my-4 d-md-block d-none" style="font-size:1rem">
+                        <table class="table my-4" style="font-size:1rem">
                         <thead>
                             <tr>
-                            <th width="20%" class="d-md-table-cell d-none"></th>
+                            <th width="20%" class="d-md-table-cell"></th>
                             <th>商品名稱</th>
                             <th width="20%">數量</th>
                             <th width="15%">小計</th>
@@ -65,43 +65,7 @@
                             </tr>
                         </tfoot>
                      </table>
-                     <table class="table my-4 d-md-none" style="font-size:1rem">
-                        <thead>
-                            <tr>
-                            <th>商品名稱</th>
-                            <th>小計</th>
-                            <th style="text-align:center">刪除</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                        <tr v-for="item in cart.carts" :key="item.id" v-if="cart.carts">
-                        <td class="align-middle">
-                        <span>{{item.product.title}}</span>
-                        <div class="text-danger"  style="font-size:0.8rem" v-if="item.coupon">
-                        已套用優惠券
-                        </div>
-                        </td>
-                        <td class="align-middle text-right">
-                            <div>{{item.final_total | currency}}</div>
-                        </td>
-                        <td class="align-middle text-center">
-                        <a href="#" class="text-muted" @click="removeCartItem(item.id)">
-                        <i class="far fa-trash-alt"></i>  
-                        </a>
-                        </td>
-                        </tr>
-                         </tbody>
-                        <tfoot class="bg-gray">
-                            <tr>
-                            <td colspan="2" class="text-right">總計</td>
-                            <td class="text-right">{{ cart.total | currency}}</td>
-                            </tr>
-                            <tr v-if="cart.final_total !== cart.total">
-                            <td colspan="2" class="text-right text-danger border-top-0">折扣價</td>
-                            <td class="text-right text-danger border-top-0">{{cart.final_total | currency}}</td>
-                            </tr>
-                        </tfoot>
-                     </table>
+                     
                      <div class="h6 text-muted">
                         <router-link to="/coupon" class="text-muted">還沒拿到折扣碼？手刀領取 go go</router-link>
                      </div>
@@ -143,7 +107,7 @@
 
 <script>
 import $ from 'jquery';
-import Animated from '../animated';
+import Animated from '../Animated';
 
 export default {
   data(){

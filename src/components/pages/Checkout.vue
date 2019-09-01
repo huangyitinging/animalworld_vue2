@@ -17,7 +17,7 @@
                              <div class="text-muted h5 mt-2">3.完成訂單</div>
                         </div>
                     </div>
-                        <div class="accordion border" id="accordionExample">
+                        <div id="accordionExample">
                             <div class="card">
                                 <div class="card-header" id="headingOne">
                                 <h2 class="mb-0">
@@ -28,13 +28,13 @@
                                 </div>
                                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                 <div class="card-body">
-                                    <table class="table d-md-block d-none" style="font-size:1rem">
+                                    <table class="table" style="font-size:1rem">
                                         <thead>
                                             <tr>
-                                            <th width="30%" class="d-md-table-cell d-none"></th>
-                                            <th width="50%">商品名稱</th>
-                                            <th width="10%">數量</th>
-                                            <th width="10%">小計</th>
+                                            <th width="20%" class="d-md-table-cell"></th>
+                                            <th>商品名稱</th>
+                                            <th width="20%">數量</th>
+                                            <th width="15%">小計</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -60,30 +60,7 @@
                                             </tr>
                                         </tfoot>
                                     </table>
-                                     <table class="table d-md-none" style="font-size:1rem">
-                                        <thead>
-                                            <tr>
-                                            <th>商品名稱</th>
-                                            <th>小計</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr v-for="item in cart.carts" :key="item.id" v-if="cart.carts">
-                                        <td class="align-middle">
-                                        <span>{{item.product.title}}</span>
-                                        </td>
-                                        <td class="align-middle text-right">
-                                            <div>{{item.final_total | currency}}</div>
-                                        </td>
-                                        </tr>
-                                        </tbody>
-                                        <tfoot class="bg-gray">
-                                            <tr>
-                                            <td class="text-right text-danger">總計</td>
-                                            <td class="text-right text-danger">{{cart.final_total | currency}}</td>
-                                            </tr>
-                                        </tfoot>
-                                    </table>
+                                     
                                 </div>
                                 </div>
                             </div>
@@ -224,8 +201,5 @@ export default {
     width: 30%;
     border-left: 5px solid #fff;
 }
-}
-.accordion{
-    
 }
 </style>

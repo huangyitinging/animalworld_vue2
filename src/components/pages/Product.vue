@@ -81,11 +81,12 @@ export default {
                  product_id:item,
                  qty,
              };
+             vm.isLoading = true;
              this.$http.post(url,{data:cart}).then((response)=>{
-                 console.log(response.data);
-                 vm.$bus.$emit('updateCart');
-                 this.$bus.$emit('message:push', response.data.message,'warning');
-            
+                console.log(response.data);
+                vm.$bus.$emit('updateCart');
+                this.$bus.$emit('message:push', response.data.message,'warning');
+                vm.isLoading = false;
           });
         },
     },

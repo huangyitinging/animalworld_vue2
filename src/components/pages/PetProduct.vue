@@ -33,7 +33,7 @@
             <div class="col-md-9">
                <div class="row">
                    <div class="col-lg-4 col-md-6 mb-3" v-for="item in filterProduct" :key="item.id">
-                       <productCard :card-item="item"></productCard>
+                       <ProductCard :card-item="item"></ProductCard>
                    </div>
                </div>
             </div>
@@ -44,7 +44,7 @@
 <script>
 import $ from 'jquery';
 import BreadCrumb from '../BreadCrumb';
-import productCard from '../productCard';
+import ProductCard from '../ProductCard';
 import Pagination from '../Pagination';
 import Footer from '../Footer';
 
@@ -90,7 +90,7 @@ export default {
     },
     components:{
         BreadCrumb,
-        productCard,
+        ProductCard,
         Footer,
         Pagination,
     },

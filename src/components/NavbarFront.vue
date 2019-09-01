@@ -16,7 +16,7 @@
                     <div class="text-center">
                         <i class="far fa-user-circle mr-sm-2"></i>
                     </div>
-                    <h5 class="d-sm-block d-none">後台登入</h5> 
+                    <h5 class="d-sm-block d-none">登入</h5> 
                     </router-link>
                 </li>
                 <li class="nav-item px-sm-4 mt-sm-1 mt-3" >
@@ -41,17 +41,17 @@
                         <b-navbar-nav>
                             <ul class="navbar-nav d-flex align-items-center">
                             <li class="nav-item px-4">
-                                <router-link class="nav-link h5" to="/Index">
+                                <router-link class="nav-link h5 mb-0" to="/Index">
                                 <i class="fas fa-home mr-2"></i>首頁
                                 </router-link>
                             </li> 
                             <li class="nav-item px-4">
-                                <router-link class="nav-link h5" to="/petproduct">
+                                <router-link class="nav-link h5 mb-0" to="/petproduct">
                                 <i class="fas fa-bone mr-2"></i>寵物館
                                 </router-link>
                             </li>
                             <li class="nav-item px-4">
-                                <router-link class="nav-link h5" to="/coupon">
+                                <router-link class="nav-link h5 mb-0" to="/coupon">
                                 <i class="fas fa-ticket-alt mr-2"></i>優惠券
                                 </router-link>
                             </li>

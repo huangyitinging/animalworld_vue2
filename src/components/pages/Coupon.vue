@@ -15,15 +15,13 @@
             </div>
             <div class="row my-5 d-flex justify-content-center">
                 <div class="col-md-3 my-3">
-                    <a class="" data-toggle="collapse" href="#addcart" role="button" aria-expanded="false" aria-controls="collapseExample">
                     <div class="bg-circle"><i class="fas fa-cart-plus fa-4x text-white progress-icon"></i></div>
                     <div class="d-inline-flex flex-column ml-3">
                         <span class="text-danger">STEP 1</span>
                         <span class="text-muted">確認購物清單</span>
                    </div>
-                    </a>
                      <!--collapse-->
-                     <div class="collapse mt-2" id="addcart">
+                     <div class="mt-3" id="addcart">
                         <div class="card card-body">
                         我們的罐罐食材來自各個地方，應有盡有，絕對不會挑不到主子喜歡的口味。
                         將罐罐成功加入購物車
@@ -31,45 +29,39 @@
                     </div>
                 </div>
                 <div class="col-md-3 my-3">
-                    <a class="" data-toggle="collapse" href="#payinformation" role="button" aria-expanded="false" aria-controls="collapseExample">
                     <div class="bg-circle"><i class="far fa-credit-card fa-4x text-white progress-icon"></i></div>
                     <div class="d-inline-flex flex-column ml-3">
                         <span class="text-danger">STEP 2</span>
                         <span class="text-muted">填寫付款資訊</span>
                     </div>
-                    </a>
                      <!--collapse-->
-                    <div class="collapse mt-2" id="payinformation">
+                    <div class="mt-3" id="payinformation">
                         <div class="card card-body">
                         記得這個階段加入汪貓星球的優惠折扣碼，讓主子吃得開心，奴才花得開心。
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 my-3">
-                    <a class="" data-toggle="collapse" href="#orderlist" role="button" aria-expanded="false" aria-controls="collapseExample">
                     <div class="bg-circle"><i class="fas fa-list-alt fa-4x text-white progress-icon"></i></div>
                     <div class="d-inline-flex flex-column ml-3">
                         <span class="text-danger">STEP 3</span>
                         <span class="text-muted">送出奴才訂單</span>
                     </div>
-                    </a>
                      <!--collapse-->
-                    <div class="collapse mt-2" id="orderlist">
+                    <div class="mt-3" id="orderlist">
                         <div class="card card-body">
                         訂單送出後想要更改，請來電告知我們服務人員。
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 my-3">
-                    <a class="" data-toggle="collapse" href="#complete" role="button" aria-expanded="false" aria-controls="collapseExample">
                     <div class="bg-circle"><i class="fas fa-truck fa-4x text-white progress-icon"></i></div>
                     <div class="d-inline-flex flex-column ml-3">
                         <span class="text-danger">STEP 4</span>
                         <span class="text-muted">完成最後付款</span>
                     </div>
-                    </a>
                      <!--collapse-->
-                    <div class="collapse mt-2" id="complete">
+                    <div class="mt-3" id="complete">
                         <div class="card card-body">
                         訂單完成後需要2-3日的配送，建議早點下單，早點讓主子有最好的享受。
                         </div>
