@@ -8,7 +8,7 @@
                 <ul class="navbar-nav">
                 <li class="d-block mx-4">
                     <router-link class="nav-link navbarfont-brand" to="/Index">
-                     <img src="https://i.imgur.com/Nr5ZZi7.png" width="180" height="60" class="d-inline-block align-top" alt="">
+                     <img src="https://i.imgur.com/kKU64oJ.png" width="180" height="60" class="d-inline-block align-top" alt="">
                 </router-link>
                 </li>
                 <li class="nav-item px-sm-4 mt-sm-1 mt-3">
