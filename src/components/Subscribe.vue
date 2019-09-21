@@ -1,9 +1,16 @@
 <template>
     <div class="container">
         <div class="sub-img">
+            <div>
+                <h4>你知道嗎？</h4>
+                <p>每吃一個牛角麵包
+                <br>
+                就會有一隻橘喵消失
+                </p>
+               </div>
             <div class="sub-content">
                 <div class="sub-border">
-                    <h3 class="text-muted">Subscribe Us For More Information</h3>
+                    <h3 class="text-muted">訂閱我們，守護毛孩</h3>
                     <form>
                         <div class="form-group">
                             <label for="SubEmail"></label>
@@ -15,7 +22,7 @@
                         </div>
                         <button type="submit" class="btn btn-lemon text-white btn-lg btn-block"
                         @click="subscribe"
-                        >Subscribe Now</button>
+                        >訂閱</button>
                     </form>
                 </div>
             </div>
@@ -43,15 +50,17 @@ export default {
 <style lang="">
 .sub-img{
     padding: 15em;
-    background-image: url(https://i.imgur.com/Bm4qbT3.png);
+    background-image: url(https://i.imgur.com/xJj11Bu.png);
     background-size: center;
+    background-position: center;
     background-attachment: fixed;
     text-align: center;
 }
 @media(max-width: 767px){
  .sub-img{
      padding: 5em;
-     background-image: url(https://i.imgur.com/tqI0s4z.png);
+     background-image: url(https://i.imgur.com/cFlEW28.png);
+     background-position: top;
  }   
 }
 .sub-content{
