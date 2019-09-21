@@ -16,7 +16,6 @@ import ShoppingCart from '@/components/pages/ShoppingCart';
 import Order from '@/components/pages/Order';
 
 import Checkout from '@/components/pages/Checkout';
-import Menu from '@/components/pages/menu';
 import Dashboard from '@/components/Dashboard';
 import Products from '@/components/pages/Products';
 import CreateCoupon from '@/components/pages/CreateCoupon';
